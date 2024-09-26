@@ -1,0 +1,120 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  padding: 50px;
+  text-align: center;
+}
+
+.hero {
+  background-color: #00B600;
+  color: white;
+  padding: 80px 20px;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  padding: 12px 30px;
+  background-color: white;
+  color: #00B600;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #008000;
+  color: white;
+}
+
+.benefits {
+  margin: 50px 0;
+}
+
+.benefits h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.benefits-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.benefit-item {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateX(-100px); /* Initial position before GSAP runs */
+}
+
+.benefit-item .icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.workouts {
+  margin: 50px 0;
+}
+
+.workouts h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.workout-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.workout-card {
+  background-color: #e0f7fa;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  perspective: 1000px; /* For 3D effect */
+  transform: rotateY(90deg); /* Initial rotation for GSAP */
+}
+
+.workout-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+/* Add this to your App.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.hero {
+  background-color: #00B600;
+  color: white;
+  padding: 80px 20px;
+  margin-bottom: 40px;
+}
+
+.benefit-item {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
